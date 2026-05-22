@@ -25,5 +25,6 @@
   "core_insight": "Ideas are cheap. Worthiness is rare. Filter topics by who they are for and what assumption they challenge.",
   "file_count": 6,
   "judgment_version": "2026.05",
-  "signature": "ed25519:8746b0f655f19d3cda063aa87f9da9e1cce5aa8e43ed37c2fad58f274c1e4aabecca9d6a6831daa6dc93e419ed18fff0d85db53e800953df51e7c68f2b77f108"
+  "signature": "ed25519:8746b0f655f19d3cda063aa87f9da9e1cce5aa8e43ed37c2fad58f274c1e4aabecca9d6a6831daa6dc93e419ed18fff0d85db53e800953df51e7c68f2b77f108",
+  "quality_badge": "untested"
 }
