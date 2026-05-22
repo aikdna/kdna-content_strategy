@@ -1,0 +1,14 @@
+{
+  "id": "eval-001",
+  "domain": "@aikdna/content_strategy",
+  "input": "User prompt: 'Give me 20 blog topic ideas about using AI for productivity.' The agent generates a list of broad topic ideas like 'AI tools for better time management' and 'How AI can improve your workflow' without filtering for worthiness.",
+  "expected_classification": "LOW_WORTHINESS",
+  "expected_axioms": [
+    "axiom_ideas_are_cheap_worthiness_is_rare",
+    "axiom_specific_audience_beats_broad_appeal",
+    "axiom_cognitive_contrast_drives_share"
+  ],
+  "output_rubric": "Agent must: (1) apply Worthiness Filter before recommending topics, (2) reject or flag topics lacking specific audience, cognitive contrast, and discussability, (3) explain why broad topics fail the worthiness test. Failure if agent outputs raw unfiltered topic list without worthiness evaluation.",
+  "pass": null,
+  "evidence": ""
+}

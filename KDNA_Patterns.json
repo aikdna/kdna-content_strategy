@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.4",
+    "version": "1.0-rc",
     "domain": "content_strategy",
     "created": "2026-05-20",
     "purpose": "Define terminology, common misunderstandings, and self-checks for content strategy judgment.",
@@ -14,11 +14,11 @@
       },
       {
         "term": "cognitive contrast",
-        "definition": "The gap between what the reader assumes and what the content reveals — a counter-intuitive claim, hidden mechanism, reframe, or simplifying model."
+        "definition": "The gap between what the reader assumes and what the content reveals \u2014 a counter-intuitive claim, hidden mechanism, reframe, or simplifying model."
       },
       {
         "term": "discussability",
-        "definition": "Whether the content creates a reason to share or argue — does it give the reader a concept they want to pass on?"
+        "definition": "Whether the content creates a reason to share or argue \u2014 does it give the reader a concept they want to pass on?"
       },
       {
         "term": "comprehension barrier",
@@ -34,7 +34,7 @@
       {
         "term": "evergreen content",
         "why": "It is a format label, not a worthiness signal. Many 'evergreen' topics are generic overviews that pass no worthiness criteria. The agent should evaluate the topic's cognitive contrast and specific audience, not its format category.",
-        "replace_with": "evaluate whether the topic has cognitive contrast and a specific audience — regardless of format category"
+        "replace_with": "evaluate whether the topic has cognitive contrast and a specific audience \u2014 regardless of format category"
       }
     ]
   },
@@ -89,9 +89,9 @@
     }
   ],
   "self_check": [
-    "For each topic I recommended, can I name the specific person, situation, and problem — or is it 'anyone interested in X'?",
-    "Does each topic contain at least one element of cognitive contrast — something the reader would find surprising or thought-changing?",
-    "Would someone share this content or argue with it — or is it purely informational?",
+    "For each topic I recommended, can I name the specific person, situation, and problem \u2014 or is it 'anyone interested in X'?",
+    "Does each topic contain at least one element of cognitive contrast \u2014 something the reader would find surprising or thought-changing?",
+    "Would someone share this content or argue with it \u2014 or is it purely informational?",
     "Did I avoid recommending topics based on popularity or trend without evaluating competition and specificity?",
     "Did I filter topics (remove weak ones) rather than just generate (add more)?"
   ]

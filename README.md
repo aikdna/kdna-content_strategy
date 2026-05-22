@@ -2,26 +2,29 @@
 
 # kdna-content_strategy
 
-[![KDNA Spec](https://img.shields.io/badge/KDNA-v0.4-4c1)](https://github.com/knowledge-dna/KDNA)
+[![KDNA Spec](https://img.shields.io/badge/KDNA-v1.0--rc-4c1)](https://github.com/knowledge-dna/KDNA)
 
-**content_strategy** — Content strategy judgment — evaluate whether a topic is worth writing based on specific audience, cognitive contrast, discussability, and comprehension barrier. Not topic generation.
+**Content Strategy** — Content strategy judgment — evaluate whether a topic is worth writing based on specific audience, cognitive contrast, discussability, and comprehension barrier. Not topic generation.
 
-## Core Insight
+## Four Questions
+
+### 1. What does this domain judge?
+
+Encode content strategy judgment so AI evaluates whether a content topic is worth writing — not just generates topic ideas. Worthiness requires: specific audience pain point, cognitive contrast, discussability, and low comprehension barrier.
+
+### 2. When does it load?
+
+Load when the user asks for content ideas, topic evaluation, content strategy, or what to write about next.
+
+### 3. What is the core judgment?
 
 Ideas are cheap. Worthiness is rare. Filter topics by who they are for and what assumption they challenge.
 
-## Scope
-
-This KDNA helps agents evaluate whether a content topic is worth writing by checking audience specificity, cognitive contrast, discussability, and comprehension barrier.
-
-## Out of Scope
-
-This KDNA is not a content calendar, SEO keyword planner, social media scheduler, trend scraper, or bulk topic generator. It does not reward volume over topic quality.
-
-## Install
+### 4. How do I use it?
 
 ```bash
 kdna install github:knowledge-dna/kdna-content_strategy
+kdna validate .
 ```
 
 ## Files
@@ -35,12 +38,7 @@ kdna install github:knowledge-dna/kdna-content_strategy
 | KDNA_Reasoning.json | Reasoning chains: conclusion → logic → so_what |
 | KDNA_Evolution.json | Capability stages, measurable indicators, growth paths |
 | kdna.json | Domain manifest |
-
-## Validate
-
-```bash
-kdna validate .
-```
+| evals/ | Evaluation cases (quality: untested) |
 
 ## License
 

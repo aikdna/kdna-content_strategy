@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "0.4",
+    "version": "1.0-rc",
     "domain": "content_strategy",
     "created": "2026-05-20",
-    "purpose": "Reasoning chains for content strategy — why most topic ideas fail.",
+    "purpose": "Reasoning chains for content strategy \u2014 why most topic ideas fail.",
     "load_condition": "Load when user asks why their content is not performing."
   },
   "reasoning_chains": [
@@ -11,8 +11,8 @@
       "id": "chain_broad_topics_are_invisible",
       "one_sentence": "A topic written for everyone competes with every piece of content ever written on that subject. A topic written for one specific person competes with nothing.",
       "logic": [
-        "Broad topics ('how to be productive') have unlimited competition — every productivity blog, book, and video is a competitor.",
-        "Specific topics ('why I stopped using a to-do list and what I do instead') have near-zero competition — nobody else has this exact perspective.",
+        "Broad topics ('how to be productive') have unlimited competition \u2014 every productivity blog, book, and video is a competitor.",
+        "Specific topics ('why I stopped using a to-do list and what I do instead') have near-zero competition \u2014 nobody else has this exact perspective.",
         "Search engines and social algorithms reward specificity because specific content matches specific intent.",
         "The creator's fear of narrowing their audience is exactly what makes their content invisible."
       ],

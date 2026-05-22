@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.4",
+    "version": "1.0-rc",
     "domain": "content_strategy",
     "created": "2026-05-20",
     "purpose": "Cases showing the difference between topic generation and topic worthiness judgment.",
@@ -11,9 +11,9 @@
       "id": "case_twenty_topics_none_writable",
       "title": "AI generates 20 topics, none are worth writing",
       "context": "A creator asks an AI: 'Give me content ideas for my newsletter about productivity.' The AI generates 20 topics: 'How to Be More Productive', 'Top 10 Productivity Tools', 'Morning Routines of Successful People', 'Time Management Tips', etc.",
-      "what_happened": "Without KDNA, the agent delivers 20 topics and the user picks one. The resulting article performs poorly because it is generic. With KDNA, the agent applies the worthiness filter: all 20 topics fail the specific audience test ('anyone interested in productivity'), 18 fail cognitive contrast (no counter-intuitive claim), 17 fail discussability (nothing to argue with). The agent returns 1 topic that passes: 'Why I stopped using a to-do list and started using a not-to-do list — and doubled my output.' This topic has: specific audience (productivity enthusiasts who feel overwhelmed by task managers), cognitive contrast (to-do lists may reduce productivity), discussability (people will argue with this).",
+      "what_happened": "Without KDNA, the agent delivers 20 topics and the user picks one. The resulting article performs poorly because it is generic. With KDNA, the agent applies the worthiness filter: all 20 topics fail the specific audience test ('anyone interested in productivity'), 18 fail cognitive contrast (no counter-intuitive claim), 17 fail discussability (nothing to argue with). The agent returns 1 topic that passes: 'Why I stopped using a to-do list and started using a not-to-do list \u2014 and doubled my output.' This topic has: specific audience (productivity enthusiasts who feel overwhelmed by task managers), cognitive contrast (to-do lists may reduce productivity), discussability (people will argue with this).",
       "what_was_learned": "Topic generation is cheap. Topic worthiness is the real skill. One high-worthiness topic is worth more than 20 unfiltered ideas. The worthiness filter transforms the agent from a topic generator into a topic editor.",
-      "structural_pattern": "many_topics_requested → all_fail_worthiness → agent_must_filter_not_generate → one_high_worthiness_topic_returned"
+      "structural_pattern": "many_topics_requested \u2192 all_fail_worthiness \u2192 agent_must_filter_not_generate \u2192 one_high_worthiness_topic_returned"
     }
   ]
 }

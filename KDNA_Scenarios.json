@@ -1,6 +1,6 @@
 {
   "meta": {
-    "version": "0.4",
+    "version": "1.0-rc",
     "domain": "content_strategy",
     "created": "2026-05-20",
     "purpose": "Scenario signals for content strategy judgment.",
@@ -27,8 +27,14 @@
             "For each passing topic, explain why. For each failing topic, explain which criterion failed."
           ],
           "replace": [
-            { "avoid": "Generating 20 broad topic ideas without filtering", "use": "Generating 3-5 topics, each with specific audience and cognitive contrast identified" },
-            { "avoid": "Recommending topics based on popularity or trend", "use": "Recommending topics based on specificity of audience and strength of cognitive contrast" }
+            {
+              "avoid": "Generating 20 broad topic ideas without filtering",
+              "use": "Generating 3-5 topics, each with specific audience and cognitive contrast identified"
+            },
+            {
+              "avoid": "Recommending topics based on popularity or trend",
+              "use": "Recommending topics based on specificity of audience and strength of cognitive contrast"
+            }
           ],
           "expected_result": "User receives fewer but sharper topics. Each topic feels specific enough to write immediately."
         }

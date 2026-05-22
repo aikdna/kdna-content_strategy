@@ -1,19 +1,48 @@
 {
   "meta": {
-    "version": "0.4",
+    "version": "1.0-rc",
     "domain": "content_strategy",
     "created": "2026-05-20",
-    "purpose": "Capability stages for content strategy — from topic generator to worthiness filter.",
+    "purpose": "Capability stages for content strategy \u2014 from topic generator to worthiness filter.",
     "load_condition": "Load when user asks about improving content strategy."
   },
   "stages": [
-    { "id": "stage_topic_generator", "name": "Topic Generator", "description": "Generates lists of content ideas by combining keywords. Measures success by quantity. Does not filter for worthiness.", "indicators": ["Produces 10-20 topic ideas", "Uses broad category labels", "Does not mention audience specificity or cognitive contrast"] },
-    { "id": "stage_worthiness_filter", "name": "Worthiness Filter", "description": "Filters every topic through audience specificity, cognitive contrast, discussability, and comprehension barrier. Recommends fewer, sharper topics with specific reasoning.", "indicators": ["Produces 3-5 filtered topics", "Explains why each topic passes or fails each criterion", "Identifies the specific person and situation for each topic"] }
+    {
+      "id": "stage_topic_generator",
+      "name": "Topic Generator",
+      "description": "Generates lists of content ideas by combining keywords. Measures success by quantity. Does not filter for worthiness.",
+      "indicators": [
+        "Produces 10-20 topic ideas",
+        "Uses broad category labels",
+        "Does not mention audience specificity or cognitive contrast"
+      ]
+    },
+    {
+      "id": "stage_worthiness_filter",
+      "name": "Worthiness Filter",
+      "description": "Filters every topic through audience specificity, cognitive contrast, discussability, and comprehension barrier. Recommends fewer, sharper topics with specific reasoning.",
+      "indicators": [
+        "Produces 3-5 filtered topics",
+        "Explains why each topic passes or fails each criterion",
+        "Identifies the specific person and situation for each topic"
+      ]
+    }
   ],
   "evolution_layers": [
-    { "id": "layer_generate_to_filter", "name": "From generation to filtering", "capability": "Stop generating more topics. Start filtering every topic for worthiness before recommending.", "from_stage": "topic_generator", "to_stage": "worthiness_filter" }
+    {
+      "id": "layer_generate_to_filter",
+      "name": "From generation to filtering",
+      "capability": "Stop generating more topics. Start filtering every topic for worthiness before recommending.",
+      "from_stage": "topic_generator",
+      "to_stage": "worthiness_filter"
+    }
   ],
   "measurement": [
-    { "id": "meas_filter_over_generate", "what": "Percentage of content strategy sessions where the agent filters topics (removes weak ones) rather than only generating (adding more)", "how": "Review agent output: does it include rejection reasoning for some topics, or only positive recommendations?", "threshold": "> 80% of sessions include at least one rejected topic with specific reasoning" }
+    {
+      "id": "meas_filter_over_generate",
+      "what": "Percentage of content strategy sessions where the agent filters topics (removes weak ones) rather than only generating (adding more)",
+      "how": "Review agent output: does it include rejection reasoning for some topics, or only positive recommendations?",
+      "threshold": "> 80% of sessions include at least one rejected topic with specific reasoning"
+    }
   ]
 }

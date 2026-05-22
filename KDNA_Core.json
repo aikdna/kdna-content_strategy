@@ -1,9 +1,9 @@
 {
   "meta": {
-    "version": "0.4",
+    "version": "1.0-rc",
     "domain": "content_strategy",
     "created": "2026-05-20",
-    "purpose": "Encode content strategy judgment so AI evaluates whether a content topic is worth writing — not just generates topic ideas. Worthiness requires: specific audience pain point, cognitive contrast, discussability, and low comprehension barrier.",
+    "purpose": "Encode content strategy judgment so AI evaluates whether a content topic is worth writing \u2014 not just generates topic ideas. Worthiness requires: specific audience pain point, cognitive contrast, discussability, and low comprehension barrier.",
     "load_condition": "Load when the user asks for content ideas, topic evaluation, content strategy, or what to write about next."
   },
   "axioms": [
@@ -34,7 +34,7 @@
     {
       "id": "axiom_specific_audience_beats_broad_appeal",
       "one_sentence": "A topic written for 'a specific person in a specific situation with a specific problem' will outperform a topic written for 'people interested in X.'",
-      "full_statement": "Broad topics compete with every other piece of content on the same subject. Specific topics compete with nothing — because only the writer who knows exactly who they are writing for can produce content that feels like it was written for one person. The test: can you name the specific person this is for? If the answer is 'anyone interested in...' the topic is too broad.",
+      "full_statement": "Broad topics compete with every other piece of content on the same subject. Specific topics compete with nothing \u2014 because only the writer who knows exactly who they are writing for can produce content that feels like it was written for one person. The test: can you name the specific person this is for? If the answer is 'anyone interested in...' the topic is too broad.",
       "why": "Agents default to broad audience thinking because it feels safer and more professional. But broad content is invisible content. Specific content gets found, shared, and remembered.",
       "applies_when": [
         "Writing a troubleshooting guide for a specific software integration failure reported in a user community",
@@ -57,7 +57,7 @@
     },
     {
       "id": "axiom_cognitive_contrast_drives_share",
-      "one_sentence": "Content spreads when it creates cognitive contrast — a gap between what the reader currently believes and what the content reveals.",
+      "one_sentence": "Content spreads when it creates cognitive contrast \u2014 a gap between what the reader currently believes and what the content reveals.",
       "full_statement": "People share content that makes them think 'I never thought of it that way' or 'I need to show this to someone.' This happens when the content challenges a common assumption, reveals a hidden mechanism, reframes a familiar problem, or provides a mental model that makes the complex simple. Content that confirms what the reader already knows may be useful but will not spread.",
       "why": "Agents generate content that is accurate and informative but not surprising. Accuracy creates utility. Surprise creates spread. For a topic to be worth writing, it must have at least one element of genuine cognitive contrast.",
       "applies_when": [
@@ -90,9 +90,9 @@
     },
     {
       "id": "cognitive_contrast",
-      "one_sentence": "The gap between what the target reader currently believes or assumes and what the content reveals — the engine of sharing and remembering.",
+      "one_sentence": "The gap between what the target reader currently believes or assumes and what the content reveals \u2014 the engine of sharing and remembering.",
       "essence": "Cognitive contrast comes in several forms: a counter-intuitive claim ('most productivity advice makes you less productive'), a hidden mechanism revealed ('why meetings feel productive but produce nothing'), a reframe ('the problem is not your time management, it is your priority management'), or a model that simplifies complexity ('all negotiation is certainty transfer').",
-      "boundary": "It is not controversy or clickbait. Controversy creates noise. Cognitive contrast creates insight. The test: after reading, does the reader have a concept they can use to think differently — not just an opinion they can agree or disagree with?",
+      "boundary": "It is not controversy or clickbait. Controversy creates noise. Cognitive contrast creates insight. The test: after reading, does the reader have a concept they can use to think differently \u2014 not just an opinion they can agree or disagree with?",
       "trigger_signal": "The topic idea describes a category ('writing tips') or process ('how to do X') without identifying the specific assumption it challenges or the mental model it provides."
     }
   ],
@@ -114,17 +114,17 @@
     {
       "from": "many_topic_ideas_generated",
       "to": "none_worth_writing",
-      "via": "checking each topic against specific audience, cognitive contrast, discussability, and comprehension barrier — most will fail at least two"
+      "via": "checking each topic against specific audience, cognitive contrast, discussability, and comprehension barrier \u2014 most will fail at least two"
     },
     {
       "from": "broad_topic_selected",
       "to": "invisible_content_published",
-      "via": "broad topics compete with everyone; specific topics compete with no one — but agents default to broad"
+      "via": "broad topics compete with everyone; specific topics compete with no one \u2014 but agents default to broad"
     },
     {
       "from": "accurate_content_no_spread",
       "to": "no_cognitive_contrast",
-      "via": "content confirmed what readers already knew — no gap, no surprise, no reason to share"
+      "via": "content confirmed what readers already knew \u2014 no gap, no surprise, no reason to share"
     }
   ],
   "stances": [
