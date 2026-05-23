@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_005",
+  "domain": "@aikdna/content_strategy",
+  "input": "Topic: 'How to use React hooks' for senior devs",
+  "expected_classification": "no_cognitive_contrast",
+  "expected_axioms": [
+    "cognitive_contrast"
+  ],
+  "output_rubric": "Agent should classify this as no_cognitive_contrast and apply axiom cognitive_contrast."
+}

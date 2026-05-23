@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_009",
+  "domain": "@aikdna/content_strategy",
+  "input": "Pick a topic for our engineering leadership newsletter.",
+  "expected_classification": "audience_selection",
+  "expected_axioms": [
+    "specific_audience"
+  ],
+  "output_rubric": "Agent should classify this as audience_selection and apply axiom specific_audience."
+}

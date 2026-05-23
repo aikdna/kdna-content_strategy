@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_008",
+  "domain": "@aikdna/content_strategy",
+  "input": "Our content gets views but zero comments. Why?",
+  "expected_classification": "no_discussability",
+  "expected_axioms": [
+    "discussability"
+  ],
+  "output_rubric": "Agent should classify this as no_discussability and apply axiom discussability."
+}

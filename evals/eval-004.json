@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_004",
+  "domain": "@aikdna/content_strategy",
+  "input": "How to evaluate if a topic is worth writing about?",
+  "expected_classification": "discussability_check",
+  "expected_axioms": [
+    "discussability"
+  ],
+  "output_rubric": "Agent should classify this as discussability_check and apply axiom discussability."
+}

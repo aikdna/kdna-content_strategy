@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_010",
+  "domain": "@aikdna/content_strategy",
+  "input": "How do I know if my topic challenges assumptions?",
+  "expected_classification": "cognitive_contrast",
+  "expected_axioms": [
+    "cognitive_contrast"
+  ],
+  "output_rubric": "Agent should classify this as cognitive_contrast and apply axiom cognitive_contrast."
+}

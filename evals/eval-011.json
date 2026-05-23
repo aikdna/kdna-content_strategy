@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_011",
+  "domain": "@aikdna/content_strategy",
+  "input": "Our post went viral but zero conversions. Diagnose.",
+  "expected_classification": "audience_topic_mismatch",
+  "expected_axioms": [
+    "discussability"
+  ],
+  "output_rubric": "Agent should classify this as audience_topic_mismatch and apply axiom discussability."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_002",
+  "domain": "@aikdna/content_strategy",
+  "input": "Is '10 Tips for Better Code' a good blog topic?",
+  "expected_classification": "no_audience_specificity",
+  "expected_axioms": [
+    "specific_audience"
+  ],
+  "output_rubric": "Agent should classify this as no_audience_specificity and apply axiom specific_audience."
+}

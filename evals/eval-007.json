@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_007",
+  "domain": "@aikdna/content_strategy",
+  "input": "I want to write about 'Remote Work Tips' — good idea?",
+  "expected_classification": "oversaturated_topic",
+  "expected_axioms": [
+    "cognitive_contrast"
+  ],
+  "output_rubric": "Agent should classify this as oversaturated_topic and apply axiom cognitive_contrast."
+}

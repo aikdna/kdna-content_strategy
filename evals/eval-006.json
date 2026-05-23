@@ -1,0 +1,10 @@
+{
+  "id": "eval_content_strategy_006",
+  "domain": "@aikdna/content_strategy",
+  "input": "What makes a newsletter topic worth sending?",
+  "expected_classification": "audience_match",
+  "expected_axioms": [
+    "specific_audience"
+  ],
+  "output_rubric": "Agent should classify this as audience_match and apply axiom specific_audience."
+}
