@@ -2,7 +2,7 @@
 
 # kdna-content_strategy
 
-[![KDNA Spec](https://img.shields.io/badge/KDNA-v1.0--rc-4c1)](https://github.com/knowledge-dna/KDNA)
+[![KDNA Spec](https://img.shields.io/badge/KDNA-v1.0--rc-4c1)](https://github.com/aikdna/KDNA)
 
 **Content Strategy** — Content strategy judgment — evaluate whether a topic is worth writing based on specific audience, cognitive contrast, discussability, and comprehension barrier. Not topic generation.
 
@@ -23,7 +23,7 @@ Ideas are cheap. Worthiness is rare. Filter topics by who they are for and what 
 ### 4. How do I use it?
 
 ```bash
-kdna install github:knowledge-dna/kdna-content_strategy
+kdna install github:aikdna/kdna-content_strategy
 kdna validate .
 ```
 
