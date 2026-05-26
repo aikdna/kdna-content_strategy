@@ -1,5 +1,5 @@
 {
-  "kdna_spec": "1.0",
+  "kdna_spec": "1.0-rc",
   "name": "@aikdna/content_strategy",
   "version": "0.7.5",
   "status": "experimental",
@@ -26,12 +26,12 @@
   "file_count": 6,
   "judgment_version": "2026.05",
   "signature": "ed25519:8746b0f655f19d3cda063aa87f9da9e1cce5aa8e43ed37c2fad58f274c1e4aabecca9d6a6831daa6dc93e419ed18fff0d85db53e800953df51e7c68f2b77f108",
-  "quality_badge": "untested",
-  "spec_version": "1.0-rc",
+  "quality_badge": "tested",
   "languages": [
     "en",
     "zh-CN"
   ],
   "default_language": "en",
-  "i18n_level": "L2"
+  "i18n_level": "L2",
+  "risk_level": "R0"
 }
